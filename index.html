@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Bookmark App</title>
   </head>
-  <body class="blue-grey lighten-5">
+  <body class="blue-grey lighten-5" onload="displayBookmarks()">
     <nav class="nav-wrapper deep-purple lighten-2">
       <div class="brand-logo center"><i class="material-icons" style="margin-top: 5px;">book</i>bookmarker.</div>
     </nav>
@@ -31,15 +31,12 @@
               </div>
             </div>
               <div class="row center">
-                <button class="btn waves-effect waves-light amber darken-3" type="submit" name="submit">
+                <button class="btn waves-effect waves-light green" type="submit" name="submit">
                   <i class="material-icons left">bookmark</i>
                   Bookmark
               </button>
             </div>
           </form>
-        </div>
-        <div class="row center">
-          <button id="clear-bookmarks" class="btn waves-effect waves-light amber darken-3" type="button" name="button"><i class="material-icons left">delete</i>Clean Bookmarks</button>
         </div>
       </div>
 
@@ -47,11 +44,13 @@
       <div class="card-panel">
 
         <h4 class="center">your bookmarks:</h4>
-        <div class="collection">
-          <a href="#!" class="collection-item deep-purple-text text-darken-3">Alvin</a>
-          <a href="#!" class="collection-item deep-purple-text text-darken-3">Alvin</a>
-          <a href="#!" class="collection-item deep-purple-text text-darken-3">Alvin</a>
-          <a href="#!" class="collection-item deep-purple-text text-darken-3">Alvin</a>
+        <ul id="bookmarks-results" class="collection center">
+          <!-- Bookmarks are displayed here -->
+        </ul>
+
+
+        <div class="row center">
+          <button id="clear-bookmarks" class="btn waves-effect waves-light red" type="button" name="button"><i class="material-icons left">delete</i>Clear All Bookmarks</button>
         </div>
       </div>
     </div>
