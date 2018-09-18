@@ -2,6 +2,6 @@
 Simple application for storing website urls using nothing but pure JavaScript, Materialize.css and Local Storage.
 Front-end was developed using [Materialize.css framework](https://materializecss.com/).
 
-The project was inspired by [Traversy Media video tutorial](https://www.youtube.com/watch?v=DIVfDZZeGxM).
+The project was inspired by [Brad Traversy](https://www.traversymedia.com/).
 
 ![Preview](./img/preview.png)
