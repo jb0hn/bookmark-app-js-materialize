@@ -8,6 +8,6 @@ https://jb0hn.github.io/bookmark-app-js-materialize/
 
 ![Preview](./img/preview.png)
 
-### Acknowledgments
+## Acknowledgments
 The project was inspired by [Brad Traversy](https://www.traversymedia.com/).
 
