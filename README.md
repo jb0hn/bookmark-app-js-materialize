@@ -6,6 +6,8 @@ Front-end was developed using [Materialize.css framework](https://materializecss
 https://jb0hn.github.io/bookmark-app-js-materialize/
 
 
+![Preview](./img/preview.png)
+
+### Acknowledgments
 The project was inspired by [Brad Traversy](https://www.traversymedia.com/).
 
-![Preview](./img/preview.png)
